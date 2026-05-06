@@ -18,7 +18,7 @@ export const Preloader = () => {
           initial={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 0.6, ease: 'easeInOut' }}
-          className="fixed inset-0 z-[100] flex flex-col items-center justify-center bg-black"
+          className="fixed top-0 left-0 w-screen h-[100dvh] z-[100] flex flex-col items-center justify-center bg-black"
         >
           {/* Slow Heartbeat Logo */}
           <motion.img
