@@ -13,7 +13,7 @@ const LOGOS = [
 const MARQUEE_LOGOS = [...LOGOS, ...LOGOS, ...LOGOS, ...LOGOS];
 
 export const LogoStrip = () => (
-  <div className="py-12 border-y border-slate-100 bg-slate-50/50 relative z-10 overflow-hidden">
+  <div className="py-12 border-y border-slate-100 bg-white relative z-10 overflow-hidden">
     <div className="max-w-7xl mx-auto px-6">
       <p className="text-center text-xs font-bold text-slate-400 uppercase tracking-[0.2em] mb-10">
         Indexed & Partnered With
@@ -35,9 +35,9 @@ export const LogoStrip = () => (
           {MARQUEE_LOGOS.map((logo, index) => (
             <div key={index} className="flex flex-col items-center justify-center w-32 shrink-0">
               <img 
-                src={logo.src} 
-                alt={logo.alt} 
-                className="h-26 w-auto max-w-full object-contain opacity-60 grayscale hover:grayscale-0 hover:opacity-100 transition-all duration-300"
+                src={logo.src}
+                alt={logo.alt}
+                className="h-26 w-auto max-w-full object-contain"
               />
             </div>
           ))}
