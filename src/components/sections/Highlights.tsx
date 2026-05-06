@@ -98,9 +98,7 @@ export const Highlights = () => (
         ))}
       </motion.div>
       
-      <div className="flex justify-center gap-2 mt-4 text-slate-500 text-xs font-medium uppercase tracking-widest opacity-50">
-        <span className="flex items-center gap-2">Auto-scrolling • Hover to pause</span>
-      </div>
+
     </div>
   </Section>
 );
