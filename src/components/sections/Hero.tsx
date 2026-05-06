@@ -5,7 +5,7 @@ import { Button } from '../ui/Button';
 
 export const Hero = () => (
   <header className="relative bg-accent-blue py-12 lg:py-20 overflow-hidden">
-    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1508933221974-98ae8a7e0ccd?q=80&w=2070&auto=format&fit=crop')] bg-cover bg-center opacity-10 mix-blend-overlay"></div>
+    
     <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-l from-brand-500/20 to-transparent pointer-events-none"></div>
     
     <div className="max-w-7xl mx-auto px-6 relative z-10 text-center lg:text-left grid lg:grid-cols-2 gap-12 items-center">
@@ -15,7 +15,7 @@ export const Hero = () => (
         viewport={{ once: true }}
       >
         <motion.div 
-          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-600 text-white text-[10px] md:text-xs font-bold uppercase tracking-[0.1em] mb-6 shadow-[0_10px_30px_rgba(22,163,74,0.4)] border border-brand-500/50"
+          className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-600 text-white text-[10px] md:text-xs font-bold uppercase tracking-[0.1em] mb-6  border border-brand-500/50"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ 
@@ -33,7 +33,7 @@ export const Hero = () => (
             />
             <span className="relative inline-flex rounded-full h-3 w-3 bg-white shadow-[0_0_10px_white]" />
           </motion.span>
-          <span className="drop-shadow-sm">
+          <span className="">
             Hybrid Conference: In Person + Online
           </span>
         </motion.div>
