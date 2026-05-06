@@ -68,7 +68,7 @@ export const Footer = () => (
           </div>
         </div>
         <div className="flex justify-start gap-4 mt-10">
-          <Button variant="primary" className="py-2 px-6 text-xs">Submit Paper</Button>
+          <Button variant="primary" className="py-2 px-6 text-xs" onClick={() => window.open('https://wa.me/918870885555', '_blank')}>Submit Paper</Button>
           <Button variant="primary" className="py-2 px-6 text-xs">Register Now</Button>
         </div>
       </div>

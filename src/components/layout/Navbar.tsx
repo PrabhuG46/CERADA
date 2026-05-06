@@ -7,7 +7,7 @@ const NAV_LINKS = [
   { name: 'Home', href: '#' },
   { name: 'About', href: '#about' },
   { name: 'Highlights', href: '#highlights' },
-  { name: 'Call for Papers', href: '#call-for-papers' },
+  { name: 'Call for Papers', href: 'https://wa.me/918870885555' },
   { name: 'Deadlines', href: '#deadlines' },
   { name: 'Registration', href: '#contact' },
   { name: 'Contact', href: '#contact' },

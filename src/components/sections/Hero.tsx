@@ -67,7 +67,7 @@ export const Hero = () => (
         </div>
         
         <div className="flex flex-col sm:flex-row items-center gap-4 justify-center lg:justify-start">
-          <Button variant="primary" className="w-full sm:w-auto bg-brand-500 shadow-brand-500/40">
+          <Button variant="primary" className="w-full sm:w-auto bg-brand-500 shadow-brand-500/40" onClick={() => window.open('https://wa.me/918870885555', '_blank')}>
             Submit Abstract
           </Button>
           <Button variant="outline" className="w-full sm:w-auto border-secondary-500/50 hover:bg-secondary-500/10">

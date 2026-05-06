@@ -22,7 +22,7 @@ export default function Home() {
       <FloatingBlob className="top-1/2 left-1/2 w-64 h-64 bg-secondary-500" delay={4} />
 
      <div className="bg-green-600 text-white p-2 text-center text-xs font-medium border-b border-green-700 relative z-10">
-  Registration is now open for Early Bird attendees. Special discounts apply!
+  Registration is now open for Early Bird attendees. Special discounts apply !
 </div>
       
       <MarqueeBanner />

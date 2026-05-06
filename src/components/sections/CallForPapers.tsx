@@ -32,7 +32,7 @@ export const CallForPapers = () => (
                 <p className="text-white/80 text-sm font-medium">Download our formatting guidelines first.</p>
               </div>
            </div>
-           <button className="bg-white text-brand-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-slate-50 transition-colors shadow-lg">
+           <button onClick={() => window.open('https://wa.me/918870885555', '_blank')} className="bg-white text-brand-600 px-6 py-3 rounded-xl font-bold text-sm hover:bg-slate-50 transition-colors shadow-lg cursor-pointer">
              Submission Portal
            </button>
         </div>
