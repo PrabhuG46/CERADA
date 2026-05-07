@@ -9,7 +9,7 @@ export const Footer = () => (
         <div className="flex items-center gap-2 mb-6 bg-white p-2 rounded-full inline-block shadow-lg">
           <img src="/ceradalogo.webp" alt="CERADA Logo" className="h-24 w-24 object-contain rounded-full" />
         </div>
-        <div className="text-slate-400 text-sm leading-relaxed space-y-4 pr-8 -ml-[30px]">
+        <div className="text-slate-400 text-sm leading-relaxed space-y-4 pr-8">
           <p className="font-bold text-white">
             International Conference on Applied Science, Engineering, Education, Business, Management and Social Science & Humanities - (ICAEBMS)
           </p>
@@ -22,7 +22,7 @@ export const Footer = () => (
       </div>
       
       <div>
-        <h4 className="font-bold mb-6 text-brand-400 uppercase tracking-widest text-xs ml-[3px]">Quick Links</h4>
+        <h4 className="font-bold mb-6 text-brand-400 uppercase tracking-widest text-xs">Quick Links</h4>
         <ul className="space-y-3 text-slate-400 text-sm">
           {['Home', 'About', 'Committee', 'Important Dates', 'Registration'].map((link) => (
             <li key={link}>

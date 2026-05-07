@@ -18,7 +18,7 @@ export const Proceedings = () => (
               <img 
                 src={logo.src} 
                 alt={logo.alt} 
-                className="max-h-full max-w-full object-contain grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-300" 
+                className="max-h-full max-w-full object-contain transition-all duration-300" 
               />
             </div>
           ))}
